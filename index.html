@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Commencal</title>
+
+</head>
+<body>
+    <header>
+        <div class="valign-wrapper" id="logo-container">
+            <img src="img/logo.png" alt="Commencal Bikes logo">
+        </div>
+        <nav>
+            <div>
+                <ul class="left">
+                    <li>Bikes</li>
+                    <li>Ride Alpha</li>
+                    <li>Equipment</li>
+                    <li>Components</li>
+                </ul>
+                <ul class="right">
+                    <li>Blog</li>
+                    <li>Community</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="carousel carousel-slider">
+            <a class="carousel-item">
+                <img src="img/slider/1.jpg">
+            </a>
+            <a class="carousel-item">
+                <img src="img/slider/2.jpg">
+            </a>
+            <a class="carousel-item">
+                <img src="img/slider/3.jpg">
+            </a>
+    </div>
+    <div class="container row">
+        <!--
+            Emmet string for all bike cards
+
+            div*8.col.s3.card#bike$>div.card-image.waves-effect.waves-block.waves-light>img.activator^div.card-content>span.card-title.activator.grey-text.text-darken-4{Bike $}>i.material-icons.right{more_vert}^p>a{This is a link}^^div.card-reveal>span.card-title.grey-text.text-darken-4{Bike $}>i.material-icons.right{close}^p{Here is some more information about this product}
+        -->
+        <div class="col s6 m4 l3 card bike" id="bike1">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/Kids.jpg" alt="Kids" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Kids<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Kids<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+        <div class="col s6 m4 l3 card bike" id="bike2">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/XC hardtail.jpg" alt="XC hardtail" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">XC Hardtail<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">XC Hardtail<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+        <div class="col s6 m4 l3 card bike" id="bike3">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/XC full suspension.jpg" alt="XC Full suspension" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">XC Full Susp.<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">XC Full Suspension<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+        <div class="col s6 m4 l3 card bike" id="bike4">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/Street.jpg" alt="Street" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Street<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Street<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+        <div class="col s6 m4 l3 card bike" id="bike5">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/Downhill.jpg" alt="Downhill" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Downhill<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Downhill<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+        <div class="col s6 m4 l3 card bike" id="bike6">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/Enduro hardtail.jpg" alt="Enduro hardtail" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Enduro Hardtail<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Enduro Hardtail<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+        <div class="col s6 m4 l3 card bike" id="bike7">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/Enduro full suspension.jpg" alt="Enduro Full suspension" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Enduro Full Susp.<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Enduro Full Suspension<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+        <div class="col s6 m4 l3 card bike" id="bike8">
+            <div class="card-image waves-effect waves-block waves-light"><img src="img/City.jpg" alt="City" class="activator"></div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">City<i class="material-icons right">more_vert</i></span>
+                
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">City<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product</p>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <div class="informationwrapper">
+            <div>
+                <iframe src="https://player.vimeo.com/video/179161043?title=0&byline=0&portrait=0" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="news">
+                <article>
+                    <h3>New bikes in the shop</h3>
+                    <p>We've added some new bikes to the shop! Come check them out right now. They are pretty cool, trust us!!!<br><br>10% off for the first 100 customers.</p>
+                </article>
+                <article>
+                    <h3>McCornflakes wins world championship</h3>
+                    <p>We are proud to announce that the amazing Max McCornflakes has won the World Championship in downhill on our world-renowned bikes. We salute you McCornflakes.</p>
+                </article>
+                <article>
+                    <h3>Bankruptcy</h3>
+                    <p>Today we are happy to announce that our enemy - the evil masterminds - Kildemoes has gone bankrupt. We had a good fight and wish their employees the best for the future.</p>
+                </article>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <nav class="container row">
+                <div class="col s4">
+                    <ul>
+                        <h5>Follow Us</h5>
+                        <li>YouTube</li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
+                <div class="col s4">
+                    <ul>
+                        <h5>Information</h5>
+                        <li>Tutorials</li>
+                        <li>Technical Manuals</li>
+                        <li>Legal</li>
+                        <li>Garantie</li>
+                    </ul>
+                </div>
+                <div class="col s4">
+                    <ul>
+                        <h5>Commencal</h5>
+                        <li>Employee Discountss</li>
+                        <li>Distributers</li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
